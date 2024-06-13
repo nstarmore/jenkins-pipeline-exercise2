@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "This is the deploy.sh file"
+cat ./deploy.sh
+echo "Deploying..."
+mv testfile.txt /tmp
+ls -l /tmp
